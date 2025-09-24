@@ -1,0 +1,18 @@
+.landing-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+.landing-container h1{
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+.landing-container p{
+    color: #666;
+    font-size: 1.2em;
+}

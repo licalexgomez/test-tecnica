@@ -1,0 +1,141 @@
+
+  
+  .contenedor-card {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-top: 3rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-secondary {
+    color: #6c757d;
+  }
+  
+  .my-3 {
+    margin: 1rem 0;
+  }
+  
+  .paper {
+    background: #fff;
+    border-radius: 6px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .flex-column {
+    flex-direction: column;
+  }
+  
+  .justify-content-center {
+    justify-content: right;
+  }
+  
+  .align-items-start {
+    align-items: flex-start;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .tarea-item {
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .tarea-item:hover {
+    background: #f1f1f1;
+    border-radius: 4px;
+  }
+  
+  .Borrar-icono {
+    cursor: pointer;
+    color: #dc3545;
+    margin-left: 10px;
+  }
+  
+  .Borrar-icono:hover {
+    color: #a71d2a;
+  }
+  .input-tarea{
+    width: 80%;
+    padding: 0.5rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    
+
+  }
+  .footer{
+    float: right;
+  }
+  hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #eee;
+    width: 100%;
+  }
+  .icons-container{
+    display: flex;
+    gap: 10px;
+  }
+  .div-checkbox{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+.name-container,
+.tarea-item {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.name-container span {
+  font-weight: bold;
+  text-align: left;
+}
+
+.name-container span:nth-child(1) {
+  width: 50px;  
+}
+
+.name-container span:nth-child(2) {
+  width: 80px;  
+  margin-left: -10px;
+}
+
+.name-container span:nth-child(3) {
+  flex: 1;    
+  margin-left: 160px;  
+}
+
+.name-container span:nth-child(4) {
+  width: 100px; 
+  margin-left: 100px;  
+}
+
+
